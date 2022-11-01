@@ -3,11 +3,11 @@ let searchForm = document.querySelector('.header .search-form');
 let loginForm = document.querySelector('.header .login-form');
 let contactInfo = document.querySelector('.footer .contactbar');
 
-// document.querySelector('#menu-btn').onclick = () =>{
-//    navbar.classList.toggle('active');
-//    searchForm.classList.remove('active');
-//    loginForm.classList.remove('active');
-// };
+document.querySelector('#menu-btn').onclick = () =>{
+   navbar.classList.toggle('active');
+   searchForm.classList.remove('active');
+   loginForm.classList.remove('active');
+};
 
 // document.querySelector('#search-btn').onclick = () =>{
 //    searchForm.classList.toggle('active');
